@@ -77,6 +77,9 @@
   transition: all 0.5s ease;
 }
 
+a:hover {
+  text-decoration: none;
+}
 .icons a:hover {
   font-size: 1.15em;
 }
