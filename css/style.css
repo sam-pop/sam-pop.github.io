@@ -68,7 +68,7 @@
   transition: all 0.5s ease;
 }
 
-.hand {
+.animatedSpan {
   display: inline-block;
   font-size: 20px;
   -webkit-animation-duration: 2s;
