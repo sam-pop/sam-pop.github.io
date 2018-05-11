@@ -121,11 +121,8 @@ slideanim {
   visibility: visible;
 }
 
-.captionTextHeader {
-  width: 40%;
-}
 .captionText {
-  width: 50%;
+  width: 45%;
 }
 
 @keyframes slide {
