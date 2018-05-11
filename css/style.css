@@ -8,8 +8,8 @@
   background-color: #ececec;
 }
 .welcome {
-  /* background: url(https://s17.postimg.org/ue00ab7jj/welcome.jpg); */
-  background: url(https://s17.postimg.cc/tzu2wsav3/HD5.jpg);
+  /* background-image: url("https://s17.postimg.cc/ue00ab7jj/welcome.jpg"); */
+  background-image: url("../img/bgImg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,6 +64,16 @@
   transition: all 0.5s ease;
 }
 
+.hand {
+  display: inline-block;
+  font-size: 20px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;
+}
 .active {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-radius: 80px;
