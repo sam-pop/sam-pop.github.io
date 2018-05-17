@@ -12,7 +12,7 @@ img {
 }
 
 .bg-trans {
-  background: rgba(0, 0, 0, 0.329) !important;
+  background: rgba(0, 0, 0, 0.527) !important;
 }
 
 .bg-gray {
@@ -123,6 +123,10 @@ slideanim {
 
 .captionText {
   width: 45%;
+}
+
+.carousel-caption {
+  font-size: 1em;
 }
 
 @keyframes slide {
