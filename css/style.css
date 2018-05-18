@@ -30,7 +30,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 
