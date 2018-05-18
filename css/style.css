@@ -21,7 +21,18 @@ img {
 
 .welcome {
   /* background-image: url("https://s17.postimg.cc/ue00ab7jj/welcome.jpg"); */
-  /* background-image: url("../img/bgImg.jpg"); */
+  background-image: url("../img/bgImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+
+.my-work {
+  /* background-image: url("https://s17.postimg.cc/ue00ab7jj/welcome.jpg"); */
+  background-image: url("../img/bgImg2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +57,6 @@ img {
 
 .navbar {
   margin-bottom: 0;
-  /* background-color: white; */
   border: 0;
   font-size: 1em;
   line-height: 1.42857143 !important;
@@ -122,7 +132,7 @@ slideanim {
 }
 
 .captionText {
-  width: 60%;
+  width: 70%;
 }
 
 .carousel-caption {
@@ -152,8 +162,6 @@ slideanim {
 }
 
 .parallax {
-  /* The image used */
-  background-image: url("../img/bgImg.jpg");
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
