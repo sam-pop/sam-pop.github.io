@@ -20,7 +20,6 @@ img {
 }
 
 .welcome {
-  /* background-image: url("https://s17.postimg.cc/ue00ab7jj/welcome.jpg"); */
   background-image: url("../img/bgImg.jpg");
   background-position: center;
   background-size: cover;
@@ -31,7 +30,6 @@ img {
 }
 
 .my-work {
-  /* background-image: url("https://s17.postimg.cc/ue00ab7jj/welcome.jpg"); */
   background-image: url("../img/bgImg2.jpg");
   background-position: center;
   background-size: cover;
@@ -162,9 +160,7 @@ slideanim {
 }
 
 .parallax {
-  /* Full height */
   height: 100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
