@@ -1,8 +1,3 @@
-img {
-  width: 80%;
-  height: 80%;
-}
-
 .roundCorners {
   border-radius: 20px;
 }
@@ -35,7 +30,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 
@@ -127,14 +122,6 @@ slideanim {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
-}
-
-.captionText {
-  width: 70%;
-}
-
-.carousel-caption {
-  font-size: 1em;
 }
 
 @keyframes slide {
