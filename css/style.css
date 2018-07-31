@@ -153,3 +153,8 @@ slideanim {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
