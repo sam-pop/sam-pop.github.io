@@ -160,6 +160,5 @@ slideanim {
 
 footer {
   position: absolute;
-  bottom: 0;
-  margin-bottom: -10%;
+  bottom: -10%;
 }
