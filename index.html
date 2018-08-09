@@ -4,9 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Samuel Poplovitch</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-  crossorigin="anonymous">  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Titillium+Web'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Titillium+Web'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./css/animate.css">
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+  <link rel="stylesheet" href="./css/hex.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./img/favicon.ico?v=2" type="image/x-icon" />
 
@@ -17,7 +20,7 @@
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-md fixed-top bg-trans">
     <!-- Brand -->
-    <a class="navbar-brand shadow" href="#home">
+    <a class="navbar-brand" href="#home" style="text-shadow: 1px 1px 2px black; ">
       <i class="fas fa-file-code"></i>
       <span>Samuel Poplovitch</span>
       <span class="d-none d-md-inline-block" style="font-size:0.6em; letter-spacing:1px">/&nbsp; Full Stack Developer</span>
@@ -69,8 +72,8 @@
         </h2>
         <br>
         <article>
-          <p>Full-stack developer, data enthusiast, and IT specialist.<br>
-            Knowledgeable and skilled in different fields such as Computer Science (CS), Information Systems (IS), data
+          <p>Full-stack developer, data enthusiast, and IT specialist.
+            <br> Knowledgeable and skilled in different fields such as Computer Science (CS), Information Systems (IS), data
             analytics, databases, IT infrastructure and servers. </p>
           <p>Entrepreneurial experience in taking a raw ideas, polishing and transforming them into a working product. Co-Founded
             and operated several non-profit organizations and a tech startup company in Israel.</p>
@@ -92,107 +95,48 @@
           <i class="fas fa-briefcase"></i>
         </h1>
         <h2>My work</h2>
-        <p>
-          <br>
-          <!-- card deck row-1 -->
-          <div class="row">
-            <div class="col-12">
-              <div class="card-deck">
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/nationalStroll" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/nationalStroll.png" alt="The National Stroll">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">The National Stroll</h4>
-                    <p class="card-text">
-                      An interactive map of the National Mall in Washington, D.C.
-                      <br>The website is fully responsive (built with mobile first in mind).
-                    </p>
-                  </div>
-                </div>
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/foodielicious" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/foodielicious.png" alt="FOODIElicious">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">FOODielicious</h4>
-                    <p class="card-text">
-                      A front-end team project that was built in a few days.
-                      <br>An interactive recipe search website that uses an API to get recipes from a remote server and delivers
-                      the results in an easy and simple manner.
-                  </div>
-                </div>
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/Word-Guess-Game" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/WGG.png" alt="Word-Guess-Game">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">Word Guess Game</h4>
-                    <p class="card-text">Retro arcade themed pure vanillaJS game.
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <ul id="hexGrid">
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+                <img src="https://s33.postimg.cc/3upx1gsdb/Screenshot_2018-08-09_Will_It_Kill_Me.png" alt="" />
+                <h1>Will It Kill Me?</h1>
+                <p>Full-stack web app that uses AI and ML to analyze and classify images of food in-order to identify common
+                  food allergens in them.</p>
+              </a>
             </div>
-          </div>
-          <!-- END OF card deck -->
-          <br>
-          <!-- card deck row-2 -->
-          <div class="row">
-            <div class="col-12">
-              <div class="card-deck">
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/starwars-rpg-game" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/swRpg.png" alt="StarWars RPG games">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">Star-Wars RPG Game</h4>
-                    <p class="card-text">A jQuery "War" card game style Star-Wars themed RPG game.
-                    </p>
-                  </div>
-                </div>
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/randomQuoteMachine" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/randomQuoteMachine.png" alt="Random Quote Machine">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">Random Quote Machine</h4>
-                    <p class="card-text">Random quotes can be regenerated with a click of a button.
-                      <br> The user can also share the quote on twitter or send it in an email.
-                      <br>Built using HTML5, CSS3, Bootstrap4, JavaScript &amp; jQuery.
-                      <br>Quotes are fetched through an API from a remote DB.
-                    </p>
-                  </div>
-                </div>
-                <div class="card bg-trans roundCorners">
-                  <a href="http://github.com/sam-pop/weatherApp" target="_blank">
-                    <img class="card-img-top img-fluid" src="./img/weatherApp.png" alt="Weather App">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">Weather App</h4>
-                    <p class="card-text">This weather app shows the local weather based on the user geolocation.
-                      <br> If geolocation is not available the app will use the user's IP address for location.
-                      <br>The temperature can be displayed in Celsius or Fahrenheit.
-                      <br>Built with CSS, HTML5, Bootstrap 4, JavaScript &amp; JQuery (Ajax).
-                      <br>API used: OpenWeatherMap
-                    </p>
-                  </div>
-                </div>
-                <!-- <div class="card bg-trans roundCorners">
-                  <a href="#" target="_blank">
-                    <img class="card-img-top img-fluid" src="" alt="">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text">
-                    </p>
-                  </div>
-                </div> -->
-              </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="http://github.com/sam-pop/nationalStroll" target="_blank">
+                <img class="hexImg" src="http://sam-pop.com/img/nationalStroll.png" alt="nationalStroll" />
+                <h1>The National Stroll</h1>
+                <p>
+                  An interactive map of the National Mall in Washington, D.C. The website is fully responsive (built with mobile first in mind).
+                </p>
+              </a>
             </div>
-          </div>
-          <!-- END OF card deck -->
-          </p>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="http://github.com/sam-pop/foodielicious" target="_blank">
+                <img src="http://sam-pop.com/img/foodielicious.png" alt="foodielicious" />
+                <h1>FOODielicious</h1>
+                <p>AAn interactive recipe search website that uses an API to get recipes from a remote server and delivers the
+                  results in an easy and simple manner.</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+                <img src="" alt="" />
+                <h1>title</h1>
+                <p>text</p>
+              </a>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
