@@ -1,6 +1,7 @@
-$(document).ready(function () {
+$(document).ready(function() {
+  $.stellar();
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a, a[href='#home']").on("click", function (event) {
+  $(".navbar a, footer a, a[href='#home']").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -11,11 +12,12 @@ $(document).ready(function () {
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $("html, body").animate({
+      $("html, body").animate(
+        {
           scrollTop: $(hash).offset().top
         },
         900,
-        function () {
+        function() {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         }
@@ -23,7 +25,7 @@ $(document).ready(function () {
     } // End if
   });
 });
-$(document).ready(function () {
+$(document).ready(function() {
   $("body").scrollspy({
     target: ".navbar",
     offset: 50
@@ -31,11 +33,11 @@ $(document).ready(function () {
 });
 
 // Changes the active carousel item with left-arrow/right-arrow key press
-document.addEventListener("keyup", function (event) {
+document.addEventListener("keyup", function(event) {
   if (event.keyCode == 39) {
-    $('.carousel-control-next-icon').click();
+    $(".carousel-control-next-icon").click();
   }
   if (event.keyCode == 37) {
-    $('.carousel-control-prev-icon').click();
+    $(".carousel-control-prev-icon").click();
   }
 });
