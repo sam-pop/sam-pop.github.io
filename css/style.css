@@ -1,6 +1,10 @@
 p {
-  text-align: center;
+  /* text-align: center; */
   text-justify: auto;
+}
+
+hr {
+  margin: 0 auto;
 }
 
 h1 {
