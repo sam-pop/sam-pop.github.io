@@ -1,5 +1,9 @@
 $(document).ready(function() {
-  $.stellar();
+  if ($(window).width() <= 667) {
+    $("#home").removeClass("parallax");
+    $("#myWork").removeClass("parallax");
+  }
+
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a, a[href='#home']").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -41,3 +45,5 @@ document.addEventListener("keyup", function(event) {
     $(".carousel-control-prev-icon").click();
   }
 });
+
+$.stellar();
