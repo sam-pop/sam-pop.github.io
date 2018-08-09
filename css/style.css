@@ -31,7 +31,7 @@ h1 {
 .welcome {
   background-image: url("../img/bgImg.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   color: #fff;
   min-height: 100vh;
@@ -41,7 +41,7 @@ h1 {
 .my-work {
   background-image: url("../img/bgImg2.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   color: #fff;
   /* min-height: 100vh; */
