@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  // if ($(window).width() <= 667) {
-  //   $("#home").removeClass("parallax");
-  //   $("#myWork").removeClass("parallax");
-  // }
+  if ($(window).width() <= 667) {
+    $("#home").removeClass("parallax");
+    $("#myWork").removeClass("parallax");
+  }
 
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a, a[href='#home']").on("click", function(event) {
