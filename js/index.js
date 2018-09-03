@@ -1,7 +1,25 @@
+$("a.nav-link").hide();
+
 $(document).ready(function() {
+  $("body").scrollspy({
+    target: ".navbar",
+    offset: 50
+  });
+
+  // custom setting for mobile
   if ($(window).width() <= 667) {
+    $("a.nav-link").show();
     $("#home").removeClass("parallax");
     $("#myWork").removeClass("parallax");
+  } else {
+    // nav-links fadeIn with scroll
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 100) {
+        $("a.nav-link").fadeIn();
+      } else {
+        $("a.nav-link").fadeOut();
+      }
+    });
   }
 
   // Add smooth scrolling to all links in navbar + footer link
@@ -26,24 +44,9 @@ $(document).ready(function() {
           window.location.hash = hash;
         }
       );
-    } // End if
-  });
-});
-$(document).ready(function() {
-  $("body").scrollspy({
-    target: ".navbar",
-    offset: 50
+    }
   });
 });
 
-// Changes the active carousel item with left-arrow/right-arrow key press
-document.addEventListener("keyup", function(event) {
-  if (event.keyCode == 39) {
-    $(".carousel-control-next-icon").click();
-  }
-  if (event.keyCode == 37) {
-    $(".carousel-control-prev-icon").click();
-  }
-});
-
+// Init stellar
 $.stellar();
