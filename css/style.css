@@ -193,3 +193,12 @@ slideanim {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.profilePic {
+  width: 128px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 9px 18px -11px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 0px 9px 18px -11px rgba(0, 0, 0, 0.73);
+  box-shadow: 0px 9px 18px -11px rgba(0, 0, 0, 0.73);
+  margin-bottom: 10px;
+}
