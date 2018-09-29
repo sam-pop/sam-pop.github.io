@@ -2,4 +2,4 @@
 
 Welcome to my portfolio!
 
-[http://sam-pop.github.io](http://sam-pop.github.io)
+[www.sam-pop.com](http://sam-pop.github.io)
