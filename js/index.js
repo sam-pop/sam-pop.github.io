@@ -1,6 +1,11 @@
 $("a.nav-link").hide();
 
 $(document).ready(function() {
+  ScrollReveal().reveal('#home');
+  ScrollReveal().reveal('#about',{ delay: 150 });
+  ScrollReveal().reveal('#myWork',{ delay: 150 });
+  ScrollReveal().reveal('#contact',{ delay: 150 });
+
   $("body").scrollspy({
     target: ".navbar",
     offset: 50
