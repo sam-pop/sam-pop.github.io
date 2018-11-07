@@ -1,13 +1,15 @@
 $("a.nav-link").hide();
 
 $(document).ready(function() {
-  
   // scroll-reveal effect
-  ScrollReveal().reveal('#about',{ delay: 150 });
-  ScrollReveal().reveal('#myWork',{ delay: 150 });
-  ScrollReveal().reveal('.hex');
-  ScrollReveal().reveal('#contact',{ delay: 150 });
-  ScrollReveal().reveal('.icons');
+  ScrollReveal().reveal("#about", { delay: 150 });
+  ScrollReveal().reveal("#myWork", { delay: 150 });
+  ScrollReveal().reveal(".hex", { delay: 200 });
+  ScrollReveal().reveal("#emailIcon", { delay: 150 });
+  ScrollReveal().reveal("#linkedinIcon", { delay: 350 });
+  ScrollReveal().reveal("#githubIcon", { delay: 550 });
+  ScrollReveal().reveal("#freecodecampIcon", { delay: 750 });
+
 
   $("body").scrollspy({
     target: ".navbar",
