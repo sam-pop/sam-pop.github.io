@@ -3,6 +3,7 @@ $("a.nav-link").hide();
 $(document).ready(function() {
   ScrollReveal().reveal('#about',{ delay: 150 });
   ScrollReveal().reveal('#myWork',{ delay: 150 });
+  ScrollReveal().reveal('.hex');
   ScrollReveal().reveal('#contact',{ delay: 150 });
 
   $("body").scrollspy({
