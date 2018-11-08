@@ -2,7 +2,6 @@ $("a.nav-link").hide();
 
 $(document).ready(function() {
   // scroll-reveal effect
-  ScrollReveal().reveal("#about", { delay: 150 });
   ScrollReveal().reveal("#myWork", { delay: 150 });
   ScrollReveal().reveal(".hex", { delay: 200 });
   ScrollReveal().reveal("#emailIcon", { delay: 150 });
